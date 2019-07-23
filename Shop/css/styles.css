@@ -1,0 +1,96 @@
+nav {   display: flex;
+        margin-left: 3em;
+        justify-content:space-around;
+        list-style-type: none;
+        height: auto;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding: 1em 5em;
+        position: relative;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        
+    }
+
+nav a {display: flex;
+        text-transform: uppercase
+    } 
+
+.logo {font-family: Dosis;
+    font-size: 1.875em;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.094em;
+    text-align: center;
+    color: #fffefe;}
+
+body {background: #333333;}
+
+h1 {font-family: 'Dosis', sans-serif;
+    font-size: 3.125em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.96;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -3.75em;
+    
+}
+
+p {color: #e6e6e6}
+
+header {height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;}
+
+
+
+.footer-column {
+    float: left; 
+    width: 23%;
+    color: #999999; 
+    padding: 2em;
+    font-family: 'Source Sans Pro', sans-serif; 
+    }
+
+.footer-column ul li {padding-top: 1em;}
+
+#footer-heading1 {font-family: 'Dosis';
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-align: left;
+    padding-left: 1em;
+    color: #ffffff}
+
+.footer-heading { text-transform: uppercase; 
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 2em;
+    }
+
+.insta-block {width: 80px;
+    height: 80px;
+    background-color:#ffffff;
+
+    }
+
+table.insta tr td {padding:0.3em 0.45em}
+
+ul {list-style: none}
