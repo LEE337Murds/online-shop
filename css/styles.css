@@ -275,31 +275,39 @@ ul.footer-text {font-family: 'Source Sans Pro';
 
 .shop-item {
     margin: 2em;
+    display: flex;
+}
+.shop-item-button {bottom: 1em;
+                    left: 1em;
+                    position: absolute;
 }
 
 .shop-item-title {
     display: block;
     width: 100%;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     font-size: 1.5em;
-    color: white;
+    color: #666666;
     margin-bottom: 1em;
 }
 
 .shop-item-image {
     height: 15em;
+    width: 21.875em;
+    object-fit: cover;
 }
 
 .shop-item-details {
-    display: flex;
+   /* display: flex; */
     align-items: center;
     padding: 0.3em;
 }
 
-.shop-item-price {
+.shop-item-price, .shop-item-description {
     flex-grow: 1;
-    color: white;
+    color: #666666;
+    width: 100%;
 }
 
 .shop-items {

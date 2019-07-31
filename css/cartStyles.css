@@ -1,7 +1,7 @@
 .section-header {
     font-family: 'Dosis';
     font-weight: normal;
-    color: white;
+    color: #666666;
     text-align: center;
     font-size: 2.5em;
 }
@@ -9,7 +9,7 @@
 .cart-header {
     font-weight: bold;
     font-size: 1.25em;
-    color:white;
+    color:#666666;
 }
 
 .cart-column {
@@ -39,7 +39,7 @@
 }
 
 .cart-item-title {
-    color: white;
+    color: #666666;
     margin-left: .5em;
     font-size: 1.2em;
 }
@@ -51,14 +51,14 @@
 }
 
 .cart-total-price {
-    color: white;
+    color: #666666;
     font-size: 1.1em;
 }
 
 .cart-total-title {
     font-weight: bold;
     font-size: 1.5em;
-    color: white;
+    color: #666666;
     margin-right: 20px;
 }
 
