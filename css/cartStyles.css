@@ -1,3 +1,6 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+
 .section-header {
     font-family: 'Dosis';
     font-weight: normal;
@@ -25,17 +28,19 @@
 }
 
 .cart-item {
-    width: 45%;
+    width: 30%;
 }
 
 .cart-price {
     width: 20%;
     font-size: 1.2em;
-    color:white;
+    color: #666666;
+    padding: 0 2em;
+    padding-bottom: 10px;
 }
 
 .cart-quantity {
-    width: 35%;
+    width: 20%;
 }
 
 .cart-item-title {
@@ -59,12 +64,13 @@
     font-weight: bold;
     font-size: 1.5em;
     color: #666666;
-    margin-right: 20px;
+    margin:0em 2em;
+    
 }
 
 .btn-purchase {
     display: block;
-    margin: 40px auto 80px auto;
+    margin: 1em auto;
     
 }
 .cart-row:last-child {
@@ -75,4 +81,76 @@
     border: none;
 }
 
-.btn-danger {margin-left: 1em }
+.btn-danger {margin-left: 0.2em }
+/*
+.navbar-left {
+    float: left;
+  }
+  
+  .navbar-right {
+    float: right;
+    position: relative;
+  }
+
+  .navbar-left li {
+    float: left;;
+    padding-left: 20px;
+    color: #777777;
+    text-decoration: none;}
+
+    .navbar-left li a {
+        float: left;;
+        padding-left: 20px;
+        color: #777777;
+        text-decoration: none;}
+    */
+    .dropbtn {
+        background-color: #3498DB;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      /* Dropdown button on hover & focus */
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: #2980B9;
+      }
+      
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-right: 25em;
+        
+      }
+      
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 20em;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content .cart-row {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: flex;
+      }
+      
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {background-color: #ddd}
+      
+      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+      .show {display:block;}
+
+      #myDropdown {width: 35em;}
+
+      .cart-headings {flex: none}
+      

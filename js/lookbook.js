@@ -31,6 +31,12 @@ const scrollToSlide = (path, currentSlide, targetSlide) => {
 
 // at prevButton click move slides left
 
+prevButton.addEventListener('click', e => {
+    const currentSlide = path.querySelector('.current-slide');
+    const prevSlide = currentSlide.previousElementSibling;
+
+    scrollToSlide(path, currentSlide, prevSlide);
+})
 // at nextButton click move slides right
 
 nextButton.addEventListener('click', e => {
@@ -43,9 +49,3 @@ nextButton.addEventListener('click', e => {
   
 });
 
-prevButton.addEventListener('click', e => {
-    const currentSlide = path.querySelector('.current-slide');
-    const prevSlide = currentSlide.previousElementSibling;
-
-    scrollToSlide(path, currentSlide, prevSlide);
-})
