@@ -142,6 +142,10 @@ padding-right: 3em;
 
 .price-heading {padding-right: 2em;}
 
-.navbar {padding: 0.5em 10em;}
+.navbar {padding: 0.5em 10em;
 
-.reduceMarginLeft {margin-left: -7em;}
+}
+
+.reduceMarginLeft {margin-left: -7em; color: black}
+
+#shopTop {background: white}

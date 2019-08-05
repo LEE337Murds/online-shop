@@ -1,56 +1,67 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+    <head>
 
-    <!-- meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+        <script type='text/javascript'>
+        $(document).on('ready', function(){
 
-    <link rel="stylesheet" href="css/styles.css" type="text/css" >
-    <link rel="stylesheet" href="css/media-query.css" type="text/css" >
+            $('#goTop').on('click', function(e){debugger;
+                $("html, body").animate({'scrollTop': $("#top").offset().top}, 1000, 'swing');
+            });
+        });
+    </script>
 
+        <link rel="stylesheet" href="css/styles.css" type="text/css" >
+        <link rel="stylesheet" href="css/media-query.css" type="text/css" >
+        
+        <title>Nates Furniture Shop</title>
+    </head>
 
-</div>
-
-
-
-<title>Nates Furniture Shop</title>
-</head>
-<body>
-
-<div class="freeShipping">
+    <body>
+            
+       <div class="keepTop">
+           <div class="freeShipping">
 
                 <div class="freeText">FREE SHIPPING FOR ORDERS OVER R1000</div>
-            </div>    
-            
-
-    <nav>
+                <div class="freeLogo">
+                    <span class="logoStyling">
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-git-square"></i>
+                        <i class="fa fa-twitter"></i>
+                    </span> 
+                </div>
+            </div>               
     
-        <a href="index.html">Home</a>
-        <a href="shop.html">Shop</a>
-        <a href="about.html">About</a>
-        <a href="#" class="logo">NATEB</a>
-        <a href="blog.html">Blog</a>
-        <a href="index.html#contact">Contact</a>
-        <a href="lookbook.html">Lookbook</a>
-    
-    
-    
-    </nav>
+            <nav>        
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <a href="#" class="logo">NATEB</a>
+                <a href="blog.html">Blog</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="lookbook.html">Lookbook</a>        
+            </nav>
+       </div> 
+<a name="top" id="top"></a> 
     <header>
         <h1>Indoor & Outdoor Furniture</h1>
         <p>We sell furniture to satisfy all your home decor needs.</p>
         <button class="lookbookButton" type="button" onclick="window.location.href = 'lookbook.html';">Lookbook</button>
     </header>
 
-
+    
 
     <section class="featured-products">
 
@@ -58,7 +69,7 @@
         <hr class="sub-heading-line">
 
         <div class="container-fluid">
-            <div class="row" style="height: 80%">
+            <div class="row">
                 <div class="col-4 ">
                     <div col-spacing>
                         <div class="featured-image-block">
@@ -144,7 +155,7 @@
                         What truly is the difference between outdoor and indoor? Where do we draw the line?
                         Furniture refers to movable objects intended to support various human activities such as seating (e.g., chairs, stools, and sofas), eating (tables), and sleeping (e.g., beds). Furniture is also used to hold objects at a convenient height for work (as horizontal surfaces above the ground, such as tables and desks), or to store things (e.g., cupboards and shelves). Furniture can be a product of design and is considered a form of decorative art. In addition to furniture's functional role, it can serve a symbolic or religious purpose. It can be made from many materials, including metal, plastic, and wood. Furniture can be made using a variety of woodworking joints which often reflect the local culture.
                     </p>
-                    <a style="cursor: pointer" onclick="javascript:ShowHide('hiddenDiv')">Read More -></a>
+                    <a style="cursor: pointer" onclick="javascript:ShowHide('hiddenDiv')">Read More <i class="fa fa-arrow-right"></i></a>
                     <div id="hiddenDiv" style="display: none">
                         <br />
                         <h3>July 2019</h3>
@@ -233,8 +244,10 @@
                 </table>
             </article> 
         </section>
-    
+        <a href="#top" id="goTop">Back to top</a>
     </footer>
-<script src="js/index.js"></script>
+    
+
+
 </body> 
 </html>

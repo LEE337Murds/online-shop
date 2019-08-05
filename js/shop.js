@@ -135,7 +135,7 @@ function dropdownFunction() {
 
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn, #myDropdown, .cart-quantity-input, .btn-danger')) {
+  if (!event.target.matches('.dropbtn, #myDropdown, .cart-quantity-input, .btn-danger, .btn-primary')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {

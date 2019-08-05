@@ -15,46 +15,54 @@
 
         <link rel="stylesheet" href="css/styles.css" type="text/css">
         <link rel="stylesheet" href="css/cartStyles.css" type="text/css">    
-        <link rel="stylesheet" href="css/pagination.css" type="text/css">
         
        
         <title>Nates Furniture Shop</title>
     </head>
     
-    <body style="background: white">
+    <body id="shopBody">
+        <div class="keepTop" id="shopTop">
 
-        <div class="freeShipping">
-            <div class="freeText">FREE SHIPPING FOR ORDERS OVER R1000</div>
-            <i class="fa fa-facebook-square" style="font-size: 1.5em"></i>
-            <i class="fa fa-git-square" style="font-size: 1.5em"></i>
-        </div>    
-            
-        <nav class="navbar">
-            <a href="#" class="shopLogo">NATEB</a>
-            <a class="reduceMarginLeft" href="index.html">Home</a>
-            <a class="reduceMarginLeft" href="lookbook.html">Lookbook</a>
-            <div class="dropdown reduceMarginLeft">
-                <button onclick="dropdownFunction()" class="dropbtn"><i class="fa fa-shopping-cart cart-icon"></i> SHOPPING CART</button>
-                <div id="myDropdown" class="dropdown-content">
-                    <h2 class="section-header">CART</h2>
-                    <div class="cart-headings">
-                            <span class="item-heading cart-header cart-columns">ITEM</span>
-                            <span class="price-heading cart-header cart-columns">PRICE</span>
-                            <span class="cart-header cart-columns">QUANTITY</span> 
-                    </div>
-                                        
-                    <div class="cart-items">
-                        <!--  new cart row creation   -->
-                    </div>  
-                    <div class="cart-total">
-                        <strong class="cart-total-title">Total</strong>
-                        <span class="cart-total-price">R0</span>
-                    </div>
-                    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>                                                    
+            <div class="freeShipping">
+                <div class="freeText">FREE SHIPPING FOR ORDERS OVER R1000</div>
+                <div class="freeLogo">
+    
+                   <span class="logoStyling">
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-git-square"></i>
+                        <i class="fa fa-twitter"></i>
+                   </span> 
                 </div>
-            </div> 
-            <a class="reduceMarginLeft" href="shop.html#contact">Contact</a>
-        </nav>
+            </div>    
+                
+            <nav class="navbar">
+                <a href="#" class="shopLogo">NATEB</a>
+                <a class="reduceMarginLeft" href="index.html">Home</a>
+                <a class="reduceMarginLeft" href="lookbook.html">Lookbook</a>
+                <div class="dropdown reduceMarginLeft">
+                    <button onclick="dropdownFunction()" class="dropbtn"><i class="fa fa-shopping-cart cart-icon"></i> SHOPPING CART</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <h2 class="section-header">CART</h2>
+                        <div class="cart-headings">
+                                <span class="item-heading cart-header cart-columns">ITEM</span>
+                                <span class="price-heading cart-header cart-columns">PRICE</span>
+                                <span class="cart-header cart-columns">QUANTITY</span> 
+                        </div>
+                                            
+                        <div class="cart-items">
+                            <!--  new cart row creation   -->
+                        </div>  
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Total</strong>
+                            <span class="cart-total-price">R0</span>
+                        </div>
+                        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>                                                    
+                    </div>
+                </div> 
+                <a class="reduceMarginLeft" href="shop.html#contact">Contact</a>
+            </nav>
+
+        </div>
          
         <header style="background:rgba(0,0,0,0.75)">
                 <h1>SHOP</h1>
@@ -63,7 +71,7 @@
 
         <div class="container">
 
-           <!--<nav >
+           <nav >
                 <ul class="pagination">
                     <li class="page-item"><a class="page-link" href="#">Previous</a></li>
                     <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -73,7 +81,7 @@
 
                 </ul>
                      
-            </nav> --> 
+            </nav>
 
             <div class="list-of-items">
                 <div class="shop-item">              
