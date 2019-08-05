@@ -129,13 +129,13 @@ function purchaseClicked() {
   updateCartTotal()
 }
 
-function myFunction() {
+function dropdownFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
 // Close the dropdown menu if the user clicks outside of it
-/*window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn, #myDropdown, .cart-quantity-input, .btn-danger')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
@@ -145,5 +145,5 @@ function myFunction() {
       }
     }
   }
-}*/
+}
 
