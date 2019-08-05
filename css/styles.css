@@ -30,9 +30,7 @@ nav {   display: flex;
         position: relative;
         text-align: center;
         font-family: 'Dosis', sans-serif;
-        position: fixed;
-        top: 0em;
-        left: 0em;
+       
         
     }
 
