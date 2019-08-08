@@ -415,3 +415,5 @@ article.no-padding {
 #scrollToTop a {
     text-align: center
 }
+
+#scrollToTop a i {font-size: 2em;}
