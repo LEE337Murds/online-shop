@@ -21,13 +21,13 @@ html, body {
 }
 
 .freeShipping .freeText {
-        display: flex;
-        height: 3em;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        color: #999999;
+    display: flex;
+    height: 3em;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #999999;
 }
 
 .freeShipping .freeLogo {
@@ -99,6 +99,7 @@ header h1 {font-family: 'Dosis', sans-serif;
     letter-spacing: normal;
     text-align: center;
     color: #f9f9f9;
+    margin-top: 3em;
    
     
 }
@@ -304,7 +305,7 @@ footer {padding: 3em 0em}
     line-height: normal;
     letter-spacing: 0.2em;
     text-align: left;
-    padding-left: 2em;
+    padding-left: 1.2em;
     color: #ffffff}
 
 .footer-heading { text-transform: uppercase; 
@@ -358,6 +359,7 @@ article.no-padding {
 .shop-item {
     margin: 2em;
     display: flex;
+    width: 100%;
 }
 .shop-item-button {bottom: 1em;
                     left: 1em;
@@ -376,7 +378,7 @@ article.no-padding {
 
 .shop-item-image {
     height: 15em;
-    width: 21.875em;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -407,3 +409,9 @@ article.no-padding {
 .page-link {background: none}
 
 .lookbookList {margin-top: 7em;}
+
+#scrollToTop {text-align: center;}
+
+#scrollToTop a {
+    text-align: center
+}
